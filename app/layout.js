@@ -1,8 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "amk.codes",
-  description: "Portfolio website",
+  title: "amk.codes"
 };
 
 export default function RootLayout({ children }) {
