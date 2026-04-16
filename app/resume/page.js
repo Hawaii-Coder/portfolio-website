@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Resume",
-  description: "Resume for Ayden Malahoff-Kamei.",
+  title: "resume"
 };
 
 export default function ResumePage() {

@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Projects",
-  description: "Projects by Ayden Malahoff-Kamei.",
+  title: "projects",
 };
 
 export default function ProjectsPage() {

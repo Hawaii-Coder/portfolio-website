@@ -102,3 +102,44 @@ a {
   text-align: center;
   opacity: 0.9;
 }
+
+/* Header at top center; button stays viewport-centered (header is out of flex flow). */
+.loginPage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHeader {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  pointer-events: auto;
+}
+
+.loginHeader .pageTitle {
+  margin: 0;
+  display: inline-block;
+}
+
+.githubLoginBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 12px 24px;
+  color: var(--bg);
+  border: 2px solid var(--fg);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: opacity 0.15s ease;
+  background: var(--fg);
+  font-weight: 700;
+}
+
+.githubLoginBtn:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}

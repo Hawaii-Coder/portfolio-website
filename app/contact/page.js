@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Contact",
-  description: "Contact Ayden Malahoff-Kamei.",
+  title: "contact"
 };
 
 export default function ContactPage() {
